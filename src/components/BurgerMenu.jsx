@@ -34,7 +34,7 @@ const BurgerMenu = () => {
 
     return (
         <div className="relative">
-            <div className='burger-menu-button' onClick={doBothChangesFunction}>
+            <div className='burger-menu-button lg:invisible' onClick={doBothChangesFunction}>
                 <div className={burgerClass}></div>
                 <div className={burgerClass}></div>
                 <div className={burgerClass}></div>

@@ -7,7 +7,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className='flexBetween max-container padding-container z-30 py-5 border-2 border-red-500'>
+    <nav className='flexBetween max-container padding-container z-30 py-5'>
         <a href="/">
             <img src={reactLogo} alt="logo provisorio" style={{width: '40px', height: '40px'}}/>
         </a>
